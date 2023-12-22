@@ -1,0 +1,51 @@
+#root{
+    background-color: black;
+    
+}
+
+.container1 .search{
+    text-align: center;
+}
+
+.search input, button{
+    background-color: black;
+    color: red;
+    border: 2px red solid;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.search button:hover{
+    background-color: red ;
+    color: white;
+    
+}
+
+.search input{
+    border: 2px red solid;
+}
+
+::placeholder{
+    color: red;
+
+}
+
+.hr1{
+    padding-top: 5px;
+    background-color: red;
+    border: none;
+    display: flex;
+    justify-content: end;
+
+}
+
+form{
+    padding-bottom: 20px;
+}
+
+.no-search{
+    color: white;
+}
+
+
